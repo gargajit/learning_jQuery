@@ -10,9 +10,19 @@ button {
     font-family: cursive;
 }  
 
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .myDiv {
-    border: 2px solid brown;
-    width: 100px;
+    border: 5px solid brown;
+    width: 200px;
     height: 100px;
     padding: 20px;
     font-size: xxx-large;
