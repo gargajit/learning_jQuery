@@ -14,6 +14,9 @@ button {
     border: 2px solid brown;
     width: 100px;
     height: 100px;
-    text-align: center;
     padding: 20px;
+    font-size: xxx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
