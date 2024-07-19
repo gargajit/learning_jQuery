@@ -1,0 +1,26 @@
+button {
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #ffe4c4a4;
+    border: 2px solid #ffe4c4df;
+}
+
+.new {
+    border: none;
+    border-radius: 50%;
+    background-image: url("https://fastly.picsum.photos/id/913/80/80.jpg?hmac=t7ZHfbv1rfkjc0VNEvu0GUTHrRv7kTas07K74eUZ2yw");
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+}
