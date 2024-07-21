@@ -1,0 +1,21 @@
+button {
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #ffe4c4a4;
+    border: 2px solid #ffe4c4df;
+}
+
+.myDiv {
+    margin-bottom: 20px;
+    border: 2px solid #ffa600be;
+    border-radius: 5px;
+    background-color:#ffa600be;
+    display: inline-block;
+    cursor: pointer;
+}
+
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
