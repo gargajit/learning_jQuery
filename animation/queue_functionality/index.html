@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Queue Functionality</h1>
+    <p>
+        By default, jQuery comes with queue Functionality for animations. <br>
+        This means that if you write multiple <span style="color: brown;"><b>animate()</b></span> calls after each other,
+        jQuery creates an "internal" queue wih these method calls.
+    </p>
+    <pre><code>$("button").click(function() {
+    var myDiv = $(".myDiv");
+    myDiv.animate({height: '300px', opacity: '0.3'}, "slow");
+    myDiv.animate({width: '300px', opacity: '0.8'}, "slow");
+    myDiv.animate({height: '100px', opacity: '0.3'}, "slow");
+    myDiv.animate({height: '100px', opacity: '0.8'}, "slow");
+});</code></pre>
+
+    <button class="opaque">Click Me</button>
+        
+    <div class="myDiv"></div>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
