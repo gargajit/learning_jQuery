@@ -1,0 +1,33 @@
+button {
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #e8f4006f;
+    border: 2px solid #e8f400a4;
+    margin: 20px 0px;
+    box-shadow: 4px 4px 10px #8b8f49e3;
+}
+
+.myDiv {
+    margin-bottom: 20px;
+    border: 2px solid #f8cb76be;
+    border-radius: 5px;
+    background-color:#f8cb76be;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+code {
+    background-color: #f5f5f5;
+    padding: 2px 4px;
+    border: 1px solid #f5f5f5;
+    border-radius: 4px;
+    font-family: monospace;
+    line-height: 25px;
+}
+
