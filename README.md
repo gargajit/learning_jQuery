@@ -18,6 +18,6 @@ There are several ways to start using jQuery on your web site. You can:
 ## Syntax
 Basic syntax is: **$(selector).action()**
 
-A **$** sign to define/access jQuery
-A **(selector)** to "query (or find)" HTML elements
-A jQuery **action()** to be performed on the element(s)
+- A **$** sign to define/access jQuery
+- A **(selector)** to "query (or find)" HTML elements
+- A jQuery **action()** to be performed on the element(s)
