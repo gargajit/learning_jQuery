@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Using Relative Values</h1>
+    <p>
+        It is also possible to define relative values (the value is then relative to the element's current value). 
+        This is done by putting += or -= in front of the value:
+    </p>
+    <pre><code>$("button").on("click", function() {
+    $(".myDiv").animate({
+        left: '+=50px',
+        height: '+=100px',
+        width: '+=100px'
+    });
+});</code></pre>
+
+    <button>Click Me</button>
+        
+    <div class="myDiv"></div>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
