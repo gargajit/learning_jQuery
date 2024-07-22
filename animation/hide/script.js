@@ -1,3 +1,3 @@
 $("button").click(function() {
-    $("myDiv").hide();
+    $(".myDiv").hide();
 });
