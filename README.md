@@ -1,6 +1,4 @@
-# learning_jQuery
-
-## About
+# jQuery
 jQuery is a JavaScript Library.
 The purpose of jQuery is to make it much easier to use JavaScript on your website.
 
