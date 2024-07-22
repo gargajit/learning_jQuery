@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Animate Multiple Properties</h1>
+    <p>
+        Multiple properties can be animated at the same time.
+    </p>
+    <pre><code>$("button").on("click", function() {
+    $(".myDiv").animate({
+        left: '150px',
+        fontSize: '3rem'
+    }, "slow");
+});</code></pre>
+
+    <button>Click Me</button>
+        
+    <div class="myDiv">Hi!</div>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
