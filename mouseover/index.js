@@ -1,5 +1,5 @@
 function randColor() {
-    var colors = ["purple", "orange", "blue", "yellow", "pink", "black", "yellowgreen", "teal", "cadetblue, "chocolate", "deeppink", "deepskyblue"];
+    var colors = ["purple", "orange", "blue", "yellow", "pink", "black", "yellowgreen", "teal", "cadetblue", "deeppink", "deepskyblue"];
     var colorNumber = getRandomNumber(colors.length);
     return colors[colorNumber];
 }
