@@ -1,0 +1,27 @@
+h1 {
+  font-size: 5rem;
+}
+p {
+  font-size: 2rem;
+}
+.green {
+  animation: paintGreen 100ms 1 forwards;
+  
+}
+.red {
+  animation: paintRed 1s 1 forwards;
+  
+}
+span {
+  padding-left: 5px;
+  padding-right: 5px;
+  
+}
+@keyframes paintGreen {
+  from {color: black; background-color: none;}
+  to {color: white; background-color: #2AA5A5;}
+}
+@keyframes paintRed {
+  from {color: black; background-color: none;}
+  to {color: white; background-color: #FF4000;}
+}
