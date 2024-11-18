@@ -1,0 +1,47 @@
+h1 {
+  font-size: 3.5rem;
+}
+label {
+  font-size: 2rem;
+}
+
+@keyframes paintGreen {
+  from {color: black; background-color: none;}
+  to {color: white; background-color: #2AA5A5;}
+}
+@keyframes paintRed {
+  from {color: black; background-color: none;}
+  to {color: white; background-color: #FF4000;}
+}
+.customButton {
+  height: 25px;
+  width: 25px;
+  border-radius: 3px;
+  background-color: #caa092;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.customButton:hover {
+  background-color: rgb(3, 188, 188);
+}
+
+#userInteraction {
+  display: flex;
+  gap: 12px;
+}
+table {
+  border: 1px black solid;
+}
+td {
+  padding: 5px;
+  border-bottom: 1px solid #504d4d;
+}
+.options {
+  display: none;
+}
+.highlight {
+  color: white;
+  background-color: rgb(3, 188, 188);
+}
