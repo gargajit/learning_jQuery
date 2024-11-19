@@ -1,5 +1,13 @@
 $(".customButton").on("click", function() {
-        $(".options").slideToggle("fast");
+    const img = $(this).find("img");
+    const currentSrc = img.attr("src");
+    const newSrc = currentSrc === "./assets/arrow-down-square.svg"
+    ? "./assets/arrow-up-square.svg"
+    : "./assets/arrow-down-square.svg";
+
+    img.attr("src", newSrc);
+    
+    $(".options").slideToggle("fast");
 });
 
 $("td").on("mouseenter", function() {
